@@ -3,13 +3,14 @@ import './App.css';
 import Row from './row';
 import requests from './Requests'; 
 import Banner from './Banner';
-// import Nav from './Nav';
+import Nav from './Nav';
 
 function App() {
 	return (
 		<div className="app">
 			{/* <Nav /> */}
 			{/* <Banner /> */}
+			<Nav/>
 			<Banner/>
 			<Row title="NETFLIX ORIGINALS" isLargeRow fetchUrl={requests.fetchNetflixOriginals} />
 			<Row title="Trending" fetchUrl={requests.fetchTrending} />
