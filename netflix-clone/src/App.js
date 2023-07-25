@@ -12,13 +12,10 @@ function App() {
       <h2>"First day of creating Netflix clone"</h2>
 			{/* <Nav /> */}
 			{/* <Banner /> */}
-			{/* <Row title="NETFLIX ORIGINALS" isLargeRow fetchUrl={requests.fetchNetflixOriginals} />
+			<Row title="NETFLIX ORIGINALS" isLargeRow fetchUrl={requests.fetchNetflixOriginals} />
       
-			<Row title="Trending" fetchUrl={requests.fetchTrending} /> */}
-      <Row title="NETFLIX ORIGINALS" />
-      
-			<Row title="Trending" />
-			{/* <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} /> */}
+			<Row title="Trending" fetchUrl={requests.fetchTrending} />
+			<Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
 		</div>
 	);
 }
