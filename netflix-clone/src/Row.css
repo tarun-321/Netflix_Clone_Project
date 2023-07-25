@@ -1,8 +1,8 @@
 .row_posters {
     display: flex;
-    /* overflow-y: hidden;
+    overflow-y: hidden;
     overflow-x: scroll;
-    padding: 20px; */
+    /* padding: 20px; */
   }
 
 
@@ -14,3 +14,9 @@
     margin-right: 10px;
     transition: transform 450ms;
   }
+
+
+  .row_poster:hover {
+    transform: scale(1.1);
+  }
+  
