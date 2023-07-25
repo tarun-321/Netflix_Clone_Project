@@ -13,7 +13,11 @@ function App() {
 			{/* <Nav /> */}
 			{/* <Banner /> */}
 			{/* <Row title="NETFLIX ORIGINALS" isLargeRow fetchUrl={requests.fetchNetflixOriginals} />
+      
 			<Row title="Trending" fetchUrl={requests.fetchTrending} /> */}
+      <Row title="NETFLIX ORIGINALS" />
+      
+			<Row title="Trending" />
 			{/* <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} /> */}
 		</div>
 	);
